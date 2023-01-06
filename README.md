@@ -5,28 +5,12 @@
 
 ### Overview  <a name="overview"/>
 
-This document provides specification for interactive search and reporting UI components. Most (potentially all) of the specification content in this repository should be in the form of README documents, in appropriate subdirectories. The present README simply gives an overview to the approach.
+This document provides specification for interactive search and reporting in interactive UI components to be used by the Legume Information System (LIS/Legumeinfo), SoyBase, and PeanutBase sites. Most (potentially all) of the specification content in this repository should be in the form of README documents, in appropriate subdirectories. The present README simply gives the overall objectives and approach.
 
-#### Problem statement
-This section will describe the main problem/task to be accomplished. Essentially: given queries of a specified type, return results appropriate to the use case, structured appropriately.
+The LIS, SoyBase, and PeanutBase sites are implemented using the Jekyll static site generator. Interactive features will be implemented using LIS Web Components, which are maintained in the [web-components](https://github.com/legumeinfo/web-components) repo, with documenmentation there and at [https://legumeinfo.github.io/web-components/](https://legumeinfo.github.io/web-components/). 
 
-#### Proposed solution
-XX description
-
-### Key Features
-This will be the core of the project SRS. It should explicit, understandable by the client but easy to interprate to code by developers. To achieve this write it in user story format; The title is the story and the bullets are the "checklist"  
-##### User Auth
-- Each user using the system has a login credential to access system functionalities.
-- User should be able to login in with email and a password
-- Password should be more than 8 characters
-- Etc
-##### Roles and Permissions
-- The system has permissions and roles for users. 
-- Users are assigned different role and permission to perform different action in the system - for example approvals and the roles also give access to different sections in the system
-- Etc
-##### Travel allowance and expense 
-- Travel expense tracker attract the allowance awarded to employee traveling and their travel expense.
-- Etc
+#### Problem statement and proposed solution
+Given user queries of a specified type, return results appropriate to the use case, structured appropriately. Both query forms and results will be implemented as web components. In general, results will consist of lists or tables, paginated as needed, with elements linking to other relevant tools or resources.
 
 ### Gene search query <a name="gene-search"/>
 See the specification in the [gene-search](gene-search/) directory.
