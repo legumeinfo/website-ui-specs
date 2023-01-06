@@ -9,6 +9,8 @@ This document provides specification for interactive search and reporting in int
 
 The LIS, SoyBase, and PeanutBase sites are implemented using the Jekyll static site generator. Interactive features will be implemented using LIS Web Components, which are maintained in the [web-components](https://github.com/legumeinfo/web-components) repo, with documenmentation there and at [https://legumeinfo.github.io/web-components/](https://legumeinfo.github.io/web-components/). 
 
+The specification will need to be somewhat iterative and flexible, as we learn about capabilities and constraints of the technology. Developing and maintining the spec in GitHub should help make this a living document, with changes and issues as needed.
+
 #### Problem statement and proposed solution
 Given user queries of a specified type, return results appropriate to the use case, structured appropriately. Both query forms and results will be implemented as web components. In general, results will consist of lists or tables, paginated as needed, with elements linking to other relevant tools or resources.
 
