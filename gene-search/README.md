@@ -1,19 +1,3 @@
-## Table of contents
- - [Overview](#overview)<br>
- - [Gene search query](#gene-search)<br>
- - [Intermediate report](#intermediate-report)<br>
- - [target URLs](#target-urls)<br>
-
-### Overview  <a name="overview"/>
-
-This document provides specification for gene search and reporting UI components. Here, testing whether READMEs in subdirectories are rendered as HTML; this would be a convenient way to make the specification more modular.
-
-#### Problem statement
-This section will describe the main problem/task to be accomplished. Essentially: given queries of a specified type, return results appropriate to the use case, structured appropriately.
-
-#### Proposed solution
-XX description
-
 ### Gene search query <a name="gene-search"/>
 Enter a gene name
 ```
