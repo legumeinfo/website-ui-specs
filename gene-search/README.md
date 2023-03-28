@@ -1,66 +1,41 @@
-### Gene search query <a name="gene-search"/>
+# Gene search query
 
-Text-entry box titled "Search for genes"
+## Input
 
-Explanatory text for search box: 
-"Enter gene names, with or without Data Store prefix. 
-Examples: Glyma.19G041200 or glyma.Wm82.gnm4.ann1.Glyma.19G041200 
+This is the requirements doc for the type of gene search that Andrew proposed for the LIS site. It differs from the main-branch version in that it is not merely a gene identifier lookup -- it searches against various attributes of genes, namely:
 
-Implementation note: The "Analyze a List" functionality at the Mines is a suitable UI solution.
+- genus (selector with "any" on top)
+- species (selector populated if genus specified, otherwise only "any")
+- strain (selector populated if species specified, otherwise only "any")
+- gene name/identifier (text input)
+- gene description (text input)
+- gene family identifiers (text input)
 
-```
-  Accepts bare or prefixed IDs, e.g. 
-    Phvul.004G049100 or phavu.G19833.gnm1.ann1.Phvul.004G049100 
-    Glyma.19G041200 or glyma.Wm82.gnm4.ann1.Glyma.19G041200 
-  Optional: specify organism. Drop-down list of genera and species? Or text-entry with auto-complete?
-    Glycine, Glycine cyrtoloba, Glycine D3-tomentella, Glycine dolichocarpa, Glycine falcata, Glycine max, Glycine soja, Glycine stenophita, Glycine syndetika
-```
+The heading of each attribute filter will have a tool tip that provides an example.
 
-### Intermediate report <a name="intermediate-report"/>
-Within Jekyll-LIS or Jekyll-SoyBase:
+### Mockup
 
-A table of matching genes (from all accessions matching the query string) and available resources.
-The links go to the respective tools.
+![input-mockup](https://user-images.githubusercontent.com/5657219/228373027-6d5bb124-8d5f-4cb4-9a8c-98c9852920d5.png)
 
-The [GCV](https://gcv.legumeinfo.org/gcv2/search?q=19G041200&sources=lis) and 
-Mine intermediate report pages are a good model of the listing of matching genes.
+## Output
 
-The Jekyll-Soybase report table might look like this, given a search on "19G041200" and no organism specified:
+The output will be a paginated list of search results in tabular form, containing:
 
-```
-  Your search found these items and available tools:
+- full LIS identifier (linked to Linkout Service) e.g. `aesev.CIAT22838.gnm1.ann1.Ae01g16390`
+- gene name (typically originating from Name attribute in LIS GFF) e.g. `Ae01g16390`
+- gene description (typically originating from Note attribute in LIS GFF) e.g. `oxygen-evolving enhancer protein; IPR008797 (Photosystem II PsbQ, oxygen evolving ...`
+- genomic location (chromosome:start-finish, strand) e.g. `aesev.CIAT22838.gnm1.Ae01:20407086-20408460 (+)`
+- gene family identifiers (each linked to Linkout Service) e.g. `legfed_v1_0.L_KK1G2X`
 
-    glyso.PI483463.gnm1.ann1.GlysoPI483463.19G041200
-      Genome Context Viewer
-      GlycineMine gene report
-      Gene tree viewer
-      Genome browser
-      SoyBase classic gene report
-      Pan-gene report (TBD)
-```
+### Mockup
 
+| identifier | name | description | location | gene families |
+| ---------- | ---- | ----------- | -------- | ------------- |
+| aesev.CIAT22838.gnm1.ann1.Ae01g16390 | Ae01g16390 | oxygen-evolving enhancer protein; IPR008797 (Photosystem II PsbQ, oxygen evolving complex), ... | aesev.CIAT22838.gnm1.Ae01:20407086-20408460 (+) | legfed_v1_0.L_KK1G2X |
+| aesev.CIAT22838.gnm1.ann1.Ae01g27100 | Ae01g27100 | ultraviolet-B-repressible protein; IPR009518 (Photosystem II PsbX); GO:0009523 (photosystem II), ... | aesev.CIAT22838.gnm1.Ae01:29888045-29888416 (+) | legfed_v1_0.L_26Y4PS |
+| aesev.CIAT22838.gnm1.ann1.Ae02g00560 | Ae02g00560 | oxygen-evolving enhancer protein; IPR008797 (Photosystem II PsbQ, oxygen evolving complex), ... | aesev.CIAT22838.gnm1.Ae02:337689-339097 (-) | legfed_v1_0.L_DWGMND |
 
-The results may be reported in a table, like so:
-| name            | primary identifier                   | resources                                         |
-| --------------- | ------------------------------------ | ------------------------------------------------- |
-| Glyma.19G041200 | glyma.Wm82.gnm4.ann1.Glyma.19G041200 | GCV, Mine report, Tree viewer, Browser, Pan-genes |
-| Glyma.19G041200 | glyma.Wm82.gnm2.ann1.Glyma.19G041200 | GCV, Mine report, Tree viewer, Browser, Pan-genes |
+## Implementation notes
 
-
-
-### Example target URLs: <a name="target-urls"/>
-```
-  Genome Context Viewer
-    https://gcv.soybase.org/gene;soybase=glyma.Wm82.gnm4.ann1.Glyma.19G041200
-  GlycineMine gene page
-    https://mines.legumeinfo.org/glycinemine/report.do?id=88499065
-  Tree viewer for tree containing the gene
-    https://funnotate.legumeinfo.org/?family=L_NHQNXR
-  Phytozome gene page
-    # Note: The syntenic ortholog of glyma.Wm82.gnm4.ann1.Glyma.19G041200 is GmISU01.19G034700
-    https://phytozome-next.jgi.doe.gov/report/gene/Gmax_Wm82_a4_v1/Glyma.19G041200
-  Phytozome browser
-    https://phytozome-next.jgi.doe.gov/jbrowse/index.html?data=genomes%2FGmax_Wm82_a4_v1&loc=Gm19%3A5993195..5996633&tracks=Transcripts%2CAlt_Transcripts%2CPASA_assembly%2CBlastx_protein%2CBlatx_Fabidae&highlight=
-  SoyBase classic gene page
-    https://www.soybase.org/sbt/search/search_results.php?category=FeatureName&version=Wm82.a4.v1&search_term=Glyma.19G041200
-```
+- the query will be a GraphQL query run by a web component, which in turn runs an InterMine path query against LegumeMine.
+- the links are not specified here -- those are the purview of the Linkout Service specification, which also specifies how they are implemented on web components like this.
