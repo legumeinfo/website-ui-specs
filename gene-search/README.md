@@ -2,8 +2,7 @@
 
 ## Input
 
-This is the requirements for the type of gene search that @adf-ncgr proposed for the LIS site. It differs from the main-branch version in that it is not merely a gene
-identifier lookup -- it searches against various attributes of genes, namely:
+This is the requirements doc for the type of gene search that Andrew proposed for the LIS site. It differs from the main-branch version in that it is not merely a gene identifier lookup -- it searches against various attributes of genes, namely:
 
 - genus (selector with "any" on top)
 - species (selector populated if genus specified, otherwise only "any")
