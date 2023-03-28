@@ -16,8 +16,7 @@ The heading of each attribute filter will have a tool tip that provides an examp
 
 ### Mockup
 
-
-
+![input-mockup](https://user-images.githubusercontent.com/5657219/228373027-6d5bb124-8d5f-4cb4-9a8c-98c9852920d5.png)
 
 ## Output
 
