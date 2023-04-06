@@ -7,7 +7,8 @@ This is the requirements doc for the type of gene search that Andrew proposed fo
 - genus (selector with "any" on top)
 - species (selector populated if genus specified, otherwise only "any")
 - strain (selector populated if species specified, otherwise only "any")
-- gene name/identifier (text input)
+- gene identifier (text input)
+- gene name (text input)
 - gene description (text input)
 - gene family identifiers (text input)
 
