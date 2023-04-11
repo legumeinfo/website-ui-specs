@@ -1,8 +1,8 @@
 # Gene search query
 
-## Input
+This is the requirements doc for the LIS gene search to be implemented on the LIS Jeykll web site.
 
-This is the requirements doc for the type of gene search that Andrew proposed for the LIS site. It differs from the main-branch version in that it is not merely a gene identifier lookup -- it searches against various attributes of genes, namely:
+## Input
 
 - genus (selector with "any" on top)
 - species (selector populated if genus specified, otherwise only "any")
