@@ -10,6 +10,7 @@ This is the requirements doc for the LIS gene search to be implemented on the LI
 - gene identifier (text input)
 - gene description (text input)
 - gene family identifier (text input)
+- search button
 
 Examples are shown below each text input element. (Selectors are self-explanatory.)
 
