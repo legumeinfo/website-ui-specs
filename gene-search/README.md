@@ -1,6 +1,6 @@
 # Gene search query
 
-This is the requirements doc for the LIS gene search to be implemented on the LIS Jeykll web site.
+This is the requirements doc for the LIS gene search to be implemented on the LIS Jekyll web site.
 
 ## Input
 
