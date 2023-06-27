@@ -17,8 +17,16 @@ Examples are shown below each text input element. (Selectors are self-explanator
 ### Mockup
 
 ![image](Search.png)
+
+<hr><br>
+
 ![image](Search_and_results.png)
+
+<hr><br>
+
 ![image](Linkouts.png)
+
+<hr><br>
 
 ## Output
 
