@@ -1,6 +1,6 @@
 # Gene search query
 
-This is the requirements doc for the LIS, SoyBase, and PeanutBase search, to be implemented on the respective Jekyll web sites.
+This is the requirements doc for the LIS, SoyBase, and PeanutBase trait association search, to be implemented on the respective Jekyll web sites.
 
 ## Input
 
@@ -16,15 +16,15 @@ Examples are shown below each text input element. (Selectors are self-explanator
 
 ### Mockup
 
-![image](Search.png)
+![image](Trait_search.png)
 
 <hr><br>
 
-![image](Search_and_results.png)
+![image](Trait_search_and_results.png)
 
 <hr><br>
 
-![image](Linkouts.png)
+![image](Trait_linkouts.png)
 
 <hr><br>
 
