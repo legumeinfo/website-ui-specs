@@ -1,7 +1,8 @@
 ## Table of contents
  - [Overview](#overview)<br>
  - [Gene search query](#gene-search)<br>
- - [QTL search](#target-urls)<br>
+ - [Trait association search (for GWAS and QTLs)](#trait-search)<br>
+ - [gene function search](#gene-function-search)<br>
 
 ### Overview  <a name="overview"/>
 
@@ -19,4 +20,7 @@ See the specification in the [gene-search](gene-search/) directory.
 
 ### Trait search <a name="trait-search"/>
 See the specification in the [trait-search](trait-search/) directory.
+
+### Gene function search <a name="gene-function-search"/>
+See the specification in the [gene-function-search](gene-function-search/) directory.
 
