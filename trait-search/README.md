@@ -40,9 +40,6 @@ The output will be a paginated list of search results in *vertical display* form
 Trait" or GWAS study, field "Ontology Annotations Term Name", e.g. "Pod number, Plant height"
 - Genotypes: e.g. `Jiyu69 x SS0404-T5-76` (QTL) or `809 soybean accessions` (GWAS)
 
-### Mockup
-
-
 ## Implementation notes
 
 - the query will be a GraphQL query run by a web component, which in turn runs an InterMine path query against LegumeMine.
