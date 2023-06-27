@@ -32,14 +32,14 @@ Examples are shown below each text input element. (Selectors are self-explanator
 
 The output will be a paginated list of search results in *vertical display* form, containing:
 
-Classical locus: E9  [Omit if not present in the data]
-Gene symbols: GmFT2a, FT  [Flatten if a list is present. Omit if not present in the data]
-Gene symbol description: Flowering Time 2a  [Omit if not present in the data]
-Gene model publication name: Glyma.16g150700
-Gene model full name: glyma.Wm82.gnm4.ann1.Glyma.16G150700  [Links to linkout box; same link as for Synopsis]
-Synopsis: Photoperiodic flowering time regulation  [Links to linkout box; same link as for Gene model full name]
-Traits: flowering time, days to maturity  [Flatten if a list is present]
-One citation: Kong F. Liu B, Xia Z, Sato S, Kim BM. Watanabe S, Yamada T. Tabata S, Kanazawa A, Harada K, Abe J.
+- Classical locus: E9  [Omit if not present in the data]
+- Gene symbols: GmFT2a, FT  [Flatten if a list is present. Omit if not present in the data]
+- Gene symbol description: Flowering Time 2a  [Omit if not present in the data]
+- Gene model publication name: Glyma.16g150700
+- Gene model full name: glyma.Wm82.gnm4.ann1.Glyma.16G150700  [Links to linkout box; same link as for Synopsis]
+- Synopsis: Photoperiodic flowering time regulation  [Links to linkout box; same link as for Gene model full name]
+- Traits: flowering time, days to maturity  [Flatten if a list is present]
+- One citation: Kong F. Liu B, Xia Z, Sato S, Kim BM. Watanabe S, Yamada T. Tabata S, Kanazawa A, Harada K, Abe J.
     Two coordinately regulated homologs of FLOWERING LOCUST are involved in the control of photoperiodic flowering in soybean.
     Plant Physiol. 2010 Nov; 154(3):1220-31. doi: 10.1104 /pp.110.160796. Epub 2010 Sep 23. PMID: 20864544; PMCID: PMC2971601.
   [Link will go to publication page in LegumeMine]
