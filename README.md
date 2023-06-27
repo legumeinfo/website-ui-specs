@@ -14,9 +14,9 @@ The specification will need to be somewhat iterative and flexible, as we learn a
 #### Problem statement and proposed solution
 Given user queries of a specified type, return results appropriate to the use case, structured appropriately. Both query forms and results will be implemented as web components. In general, results will consist of lists or tables, paginated as needed, with elements linking to other relevant tools or resources.
 
-### Gene search query <a name="gene-search"/>
+### Gene search <a name="gene-search"/>
 See the specification in the [gene-search](gene-search/) directory.
 
-### QTL search query <a name="qtl-search"/>
-See the specification in the [qtl-search](qtl-search/) directory.
+### Trait search <a name="trait-search"/>
+See the specification in the [trait-search](trait-search/) directory.
 
