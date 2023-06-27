@@ -1,6 +1,6 @@
 # Gene search query
 
-This is the requirements doc for the LIS, SoyBase, and PeanutBase gene function search, to be implemented on the respective Jekyll web sites.
+This is the requirements doc for the LIS, SoyBase, and PeanutBase gene function search, to be implemented on the respective Jekyll web sites. This should serve gene function information that is being curated at, for example, [https://data.legumeinfo.org/Glycine/max/gene_functions/](https://data.legumeinfo.org/Glycine/max/gene_functions/). Note though: the data will need to be incorporated into the Mines before this search functionality can be implemented.
 
 ## Input
 
