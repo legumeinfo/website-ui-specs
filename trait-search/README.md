@@ -16,7 +16,9 @@ Examples are shown below each text input element. (Selectors are self-explanator
 
 ### Mockup
 
-![image](https://user-images.githubusercontent.com/5657219/231203688-f7493a37-f98a-42ef-a1f8-66b1395fbd76.png)
+![image](Search.png)
+![image](Search_and_results.png)
+![image](Linkouts.png)
 
 ## Output
 
