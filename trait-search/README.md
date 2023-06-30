@@ -8,7 +8,7 @@ This is the requirements doc for the LIS, SoyBase, and PeanutBase trait associat
 - Species (selector populated if genus specified, otherwise only "any")
 - Study Type (selector with "any" on top; values GWAS or QTL)
 - Traits (text input)
-- Study ID (DOI or PMID) (text input)
+- Publication ID (DOI or PMID) (text input)
 - Author (text input)
 - SEARCH button
 
