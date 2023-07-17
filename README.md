@@ -2,7 +2,9 @@
  - [Overview](#overview)<br>
  - [Gene search query](#gene-search)<br>
  - [Trait association search (for GWAS and QTLs)](#trait-search)<br>
- - [gene function search](#gene-function-search)<br>
+ - [Gene function search](#gene-function-search)<br>
+ - [Browser landing/index page](#browser-landing)<br>
+ - [Pangenes search](#pangenes-search)<br>
 
 ### Overview  <a name="overview"/>
 
@@ -23,4 +25,11 @@ See the specification in the [trait-search](trait-search/) directory.
 
 ### Gene function search <a name="gene-function-search"/>
 See the specification in the [gene-function-search](gene-function-search/) directory.
+
+### Browser landing/index page <a name="browser-landing"/>
+See the specification in the [browser-landing](browser-landing/) directory.
+
+### Pangenes search <a name="pangenes-search"/>
+See the specification in the [pangenes-search](pangenes-search/) directory.
+
 
