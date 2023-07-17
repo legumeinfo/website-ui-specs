@@ -1,4 +1,4 @@
-# Trait association search query - for GWAS and QTL data
+# Pangenes search query - to find ~paralogous/allelic genes (corresponding by homology and synteny)
 
 This is the requirements doc for the LIS, SoyBase, and PeanutBase pangenes search, to be implemented on the respective Jekyll web sites. This search component should enable search of corresponding genes (genes from different accessions), via pangene membership. The primary link targets are those relevant for genes (probably the same as for the gene search).
 
@@ -34,7 +34,8 @@ The output will be a paginated list of search results in *vertical display* form
 
 - At top, the name of the pangene
 - If feasible, a count of the genes in this pangene. This would probably require either that the count is stored in e.g. the mine backend, OR that the full pangene is accessed, counted, then filtered if an accession or species is selected.
-- Full gene name, linking to modal selector, then gene ID in parentheses, then genus and species, then accession, e.g. [glyma.Wm82.gnm1.ann1.Glyma13g43430.2] (Glyma13g43430.2) Glycine max Wm82
+- Full gene name, linking to modal selector, then gene ID in parentheses, then genus and species, then accession, e.g. 
+`    glyma.Wm82.gnm1.ann1.Glyma13g43430.2 (Glyma13g43430.2) Glycine max Wm82`
 
 ## Implementation notes
 
