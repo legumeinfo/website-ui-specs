@@ -4,6 +4,11 @@
 
 The main objective for this spec is to generate a page of links to genome browsers for a genus, following a specified ordering of the species and the accessions and annotations within each species. The requirement of specifying the ordering forces reliance on one or more hand-generated files that establish that ordering. Those files exist in the Datastore metadata, in two types of "description_....yml" files.
 
+## Specification version
+Version: 1.0.0
+
+Notes: This specification was completed mid-July, 2023. Implementation of the page was completed by late July, and may differ in some details from this spec - e.g. in layout of the assembly descriptions, citation, and browser link.
+
 ## Implementation: 
 
 Determine the species ordering using the `GENUS/description_[glycine].yml` files:

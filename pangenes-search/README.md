@@ -2,6 +2,11 @@
 
 This is the requirements doc for the LIS, SoyBase, and PeanutBase pangenes search, to be implemented on the respective Jekyll web sites. This search component should enable search of corresponding genes (genes from different accessions), via pangene membership. The primary link targets are those relevant for genes (probably the same as for the gene search).
 
+## Specification version
+Version: 0.9.0
+
+Notes: This specification was completed in late July, 2023. The specification preceded availability of the data in the mines, so additional review and revision of the spec may be needed before the first implementation.
+
 ## Input
 
 - Genus (selector with "any" on top. For SoyBase, only Glycine; for PeanutBase, only Arachis)

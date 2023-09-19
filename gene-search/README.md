@@ -2,6 +2,15 @@
 
 This is the requirements doc for the LIS gene search to be implemented on the LIS Jekyll web site.
 
+## Specification version
+Version: 1.1.0
+
+Notes: A draft implementation of this specification was completed in late March 2023. Based on review of that implementation, additional changes were made to better handle pagination and back-navigation from the modal linkouts results window.
+
+After another round of review in mid-July 2023, the intermediate output was changed from vertical layout of the results for each gene to a tabular layout per gene.
+
+The history above predates a versioning system for these website-ui specs. In October 2023, semantic versioning was added, with 1.1.0 being used in this spec to reflect the first production release of this gene-search web component -- subversion .1 indicating that significant changes were made in June-July after review of the initial implementation in March.
+
 ## Input
 
 - genus (selector with "any" on top)
