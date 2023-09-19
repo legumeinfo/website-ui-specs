@@ -7,7 +7,7 @@ Version: 1.1.0
 
 Notes: A draft implementation of this specification was completed in late March 2023. Based on review of that implementation, additional changes were made to better handle pagination and back-navigation from the modal linkouts results window.
 
-After another round of review in mid-July 2023, the intermediate output was changed from vertical layout of the results for each gene to a tabular layout per gene.
+After another round of review in mid-July 2023, the intermediate output was changed from vertical layout of the results for each gene to a tabular layout per gene, based on this rationale from Alan (Aug 4, lis-developers discussion thread): </i>"... the generic paginated search class the component is based on draws results using a table, but the gene search component overrides this to draw results as a list. While the list is aesthetically pleasing, it can only be configured by forking the repository and modifying the code, whereas the table can be configured at run-time, i.e. no forking necessary."</i>
 
 The history above predates a versioning system for these website-ui specs. In October 2023, semantic versioning was added, with 1.1.0 being used in this spec to reflect the first production release of this gene-search web component -- subversion .1 indicating that significant changes were made in June-July after review of the initial implementation in March.
 
