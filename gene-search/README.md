@@ -3,7 +3,7 @@
 This is the requirements doc for the LIS gene search to be implemented on the LIS Jekyll web site.
 
 ## Specification version
-Version: 1.1.0
+Version: 1.1.1
 
 Notes:
 <details>
@@ -13,11 +13,13 @@ A draft implementation of this specification was completed in late March 2023. B
 After another round of review in mid-July 2023, the intermediate output was changed from vertical layout of the results for each gene to a tabular layout per gene, based on this rationale from Alan (Aug 4, lis-developers discussion thread): </i>"... the generic paginated search class the component is based on draws results using a table, but the gene search component overrides this to draw results as a list. While the list is aesthetically pleasing, it can only be configured by forking the repository and modifying the code, whereas the table can be configured at run-time, i.e. no forking necessary."</i>
 
 The history above predates a versioning system for these website-ui specs. In October 2023, semantic versioning was added, with 1.1.0 being used in this spec to reflect the first production release of this gene-search web component -- subversion .1 indicating that significant changes were made in June-July after review of the initial implementation in March.
+
+October 19: update spec version to 1.1.1 -- the minor version increment reflecting that the Gene search field should be parameterizable in the web component, to allow fixing the genus to e.g. Arachis or Glycine, for use at a genus-specific site or context.
 </details>
 
 ## Input
 
-- genus (selector with "any" on top)
+- genus (selector with "any" on top). In single-genus contexts (e.g. PeanutBase or SoyBase), allow this value to be pre-set.
 - species (selector populated if genus specified, otherwise only "any")
 - strain (selector populated if species specified, otherwise only "any")
 - gene identifier (text input)
