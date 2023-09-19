@@ -35,7 +35,7 @@ Examples are shown below each text input element. (Selectors are self-explanator
 
 ## Output
 
-The output will table with the following content:
+The output will be in a tabular layout, with the following content in each gene-anchored row:
 
 - gene name (typically originating from Name attribute in LIS GFF) e.g. `Ae01g16390`
 - full LIS identifier (linked to Linkout Service) e.g. `aesev.CIAT22838.gnm1.ann1.Ae01g16390`
