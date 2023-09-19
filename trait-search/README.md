@@ -5,7 +5,10 @@ This is the requirements doc for the LIS, SoyBase, and PeanutBase trait associat
 ## Specification version
 Version: 1.0.0
 
-Notes: This specification was completed in mid-July, 2023, and is ready for initial implementation.
+<details>
+
+This specification was completed in mid-July, 2023, and is ready for initial implementation.
+</details>
 
 ## Input
 
@@ -35,7 +38,7 @@ Examples are shown below each text input element. (Selectors are self-explanator
 
 ## Output
 
-The output will be a paginated list of search results in *vertical display* form, containing:
+The output will be in a tabular layout, with the following content in each collection-anchored row:
 
 - Study datastore collection name (linked to Linkout Service) e.g. `Nannong94-156_x_Bogao.qtl.Zhang_Cheng_2010`
 - Study type -- either GWAS or QTL

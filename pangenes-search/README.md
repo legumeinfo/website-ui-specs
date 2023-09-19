@@ -5,7 +5,10 @@ This is the requirements doc for the LIS, SoyBase, and PeanutBase pangenes searc
 ## Specification version
 Version: 0.9.0
 
-Notes: This specification was completed in late July, 2023. The specification preceded availability of the data in the mines, so additional review and revision of the spec may be needed before the first implementation.
+<details>
+
+This specification was completed in late July, 2023. The specification preceded availability of the data in the mines, so additional review and revision of the spec may be needed before the first implementation.
+</details>
 
 ## Input
 
@@ -35,9 +38,9 @@ Examples are shown below each text input element. (Selectors are self-explanator
 
 ## Output
 
-The output will be a paginated list of search results in *vertical display* form, containing:
+The output will be in a tabular layout, with the following content in each pangene-anchored row:
 
-- At top, the name of the pangene
+- The name of the pangene
 - If feasible, a count of the genes in this pangene. This would probably require either that the count is stored in e.g. the mine backend, OR that the full pangene is accessed, counted, then filtered if an accession or species is selected.
 - Full gene name, linking to modal selector, then gene ID in parentheses, then genus and species, then accession, e.g. 
 `    glyma.Wm82.gnm1.ann1.Glyma13g43430.2 (Glyma13g43430.2) Glycine max Wm82`

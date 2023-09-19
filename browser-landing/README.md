@@ -7,7 +7,10 @@ The main objective for this spec is to generate a page of links to genome browse
 ## Specification version
 Version: 1.0.0
 
-Notes: This specification was completed mid-July, 2023. Implementation of the page was completed by late July, and may differ in some details from this spec - e.g. in layout of the assembly descriptions, citation, and browser link.
+<details>
+
+This specification was completed mid-July, 2023. Implementation of the page was completed by late July, and may differ in some details from this spec - e.g. in layout of the assembly descriptions, citation, and browser link.
+</details>
 
 ## Implementation: 
 

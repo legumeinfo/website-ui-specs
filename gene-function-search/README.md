@@ -5,7 +5,10 @@ This is the requirements doc for the LIS, SoyBase, and PeanutBase gene function 
 ## Specification version
 Version: 0.9.0
 
-Notes: This specification was completed in late June, 2023. The specification preceded availability of the data in the mines, so additional review and revision of the spec may be needed before the first implementation.
+<details>
+
+This specification was completed in late June, 2023. The specification preceded availability of the data in the mines, so additional review and revision of the spec may be needed before the first implementation.
+</details>
 
 ## Input
 
@@ -35,12 +38,12 @@ Examples are shown below each text input element. (Selectors are self-explanator
 
 ## Output
 
-The output will be a paginated list of search results in *vertical display* form, containing:
+The output will be in a tabular layout, with the following content in each gene-name-anchored row:
 
+- Gene model publication name: Glyma.16g150700
 - Classical locus: E9  [Omit if not present in the data]
 - Gene symbols: GmFT2a, FT  [Flatten if a list is present. Omit if not present in the data]
 - Gene symbol description: Flowering Time 2a  [Omit if not present in the data]
-- Gene model publication name: Glyma.16g150700
 - Gene model full name: glyma.Wm82.gnm4.ann1.Glyma.16G150700  [Links to linkout box; same link as for Synopsis]
 - Synopsis: Photoperiodic flowering time regulation  [Links to linkout box; same link as for Gene model full name]
 - Traits: flowering time, days to maturity  [Flatten if a list is present]
