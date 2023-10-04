@@ -3,11 +3,13 @@
 This is the requirements doc for the LIS, SoyBase, and PeanutBase trait association search, to be implemented on the respective Jekyll web sites. This search component should enable search of both QTL and GWAS studies. The primary (though not exclusive) link targets are the QTL and GWAS reports at the LIS InterMine instances -- for example, [GWAS "days to flower"](https://mines.legumeinfo.org/glycinemine/report.do?id=145000005) or [QTL "first flower"](https://mines.legumeinfo.org/glycinemine/report.do?id=235000009).
 
 ## Specification version
-Version: 1.0.0
+Version: 1.1.0
 
 <details>
 
-This specification was completed in mid-July, 2023, and is ready for initial implementation.
+This specification was completed in mid-July, 2023, and is ready for initial implementation (v1.0).
+
+A change was made to the spec on Oct 4 (v1.1.0) to reflect the current implementation of the search results to have a tabular rather than vertical layout - though this change is primarily for (assumed) ease of implementation rather than for functionality or esthetics. See discussion near the results section.
 </details>
 
 ## Input
@@ -22,15 +24,24 @@ This specification was completed in mid-July, 2023, and is ready for initial imp
 
 Examples are shown below each text input element. (Selectors are self-explanatory.)
 
+Note that there are two versions of the report layouts in the mockups: one with the fields layed out vertically (key: value pairs each on their own line),
+and one layed out in a tabular layout, with keys serving as column headers and values for each record comprising a row in the table.
+See further discussion below, under Output.
+
 ### Mockup
 
 ![image](Trait_search.png)
 
 <hr><br>
 
-![image](Trait_search_and_results.png)
+![image](Trait_search_and_results_vert.png)
 
 <hr><br>
+
+![image](Trait_search_and_results_table.png)
+
+<hr><br>
+
 
 ![image](Trait_linkouts.png)
 
@@ -38,7 +49,12 @@ Examples are shown below each text input element. (Selectors are self-explanator
 
 ## Output
 
-The output will be in a tabular layout, with the following content in each collection-anchored row:
+Note continuing discussion of report layout: For the data in this search and report, the vertical layout is probably preferable esthetically, 
+and wrapping of long text items will be needed. However, the choice of the layout is left to the implementer, at least in this version of the spec (1.1.x).
+I assume that tabular layout will be more straightforward at this point, and that is acceptable in order to get
+an initial implementation in place.
+
+Assuming tabular layout for this implementation (1.1.x), the following content will be in in each collection-anchored row:
 
 - Study datastore collection name (linked to Linkout Service) e.g. `Nannong94-156_x_Bogao.qtl.Zhang_Cheng_2010`
 - Study type -- either GWAS or QTL
