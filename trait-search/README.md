@@ -9,7 +9,7 @@ Version: 1.1.0
 
 This specification was completed in mid-July, 2023, and is ready for initial implementation (v1.0).
 
-A change was made to the spec on Oct 4 (v1.1.0) to reflect the current implementation of the search results to have a tabular rather than vertical layout - though this change is primarily for (assumed) ease of implementation rather than for functionality or esthetics. See discussion near the results section.
+A change was made to the spec on Oct 4 (v1.1.0) to reflect the current implementation of the search results to have a tabular rather than vertical layout - though this change is primarily for (assumed) ease of implementation rather than for functionality or esthetics. See discussion near the results section. Also, a minor change in a search text-entry field: from "Study ID" to Publication ID".
 </details>
 
 ## Input
