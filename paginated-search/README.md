@@ -44,6 +44,7 @@ None
 
 ## Implementation notes
 
-- The inputs of the search form should be added to the URL querystring parameters when the form is submitted. If any of these querystring parameters are present when the page is loaded, then their values should be put in the search form. Similarly, the presence of (some) of these querystring parameters when the page is load should cause a search to happen automatically.
+- The inputs of the search form should be added to the URL querystring parameters when the form is submitted. If any of these querystring parameters are present when the page is loaded, then their values should be put in the search form. Similarly, the presence of (some) of these querystring parameters when the page is loaded should cause a search to happen automatically.
+- The Web browser's forward and back buttons should navigate the search history and update the querystring parameters and search form accordingly.
 - All of this functionality should be encapsulated in an abstract Web Component that other paginated search components can extend.
 - The search form, what querystring parameters trigger an automatic search, and the results table should all be configurable by the conrete paginated search implementations.
