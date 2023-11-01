@@ -30,6 +30,7 @@ None
 ## Output
 
 - A loading spinner should be shown if/when data for the search form is being loaded, e.g. site-specific genera
+- An error alert if the search form data failed to load
 - A loading spinner should be shown when a search form is submitted
 - An error alert if the search failed
 - A warning alert if the search didn't find anything
