@@ -44,6 +44,7 @@ None
 
 ## Implementation notes
 
+- Previous search results should only be cleared when there's new search results to replace them, i.e. if a new search fails then the previous results should remain.
 - The inputs of the search form should be added to the URL querystring parameters when the form is submitted. If any of these querystring parameters are present when the page is loaded, then their values should be put in the search form. Similarly, the presence of (some) of these querystring parameters when the page is loaded should cause a search to happen automatically.
 - The Web browser's forward and back buttons should navigate the search history and update the querystring parameters and search form accordingly.
 - All of this functionality should be encapsulated in an abstract Web Component that other paginated search components can extend.
