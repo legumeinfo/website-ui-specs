@@ -7,11 +7,11 @@ Version: 1.2.0
 
 <details>
 
-This specification was completed in mid-July, 2023, and is ready for initial implementation (v1.0).
+v1.0.0 of this specification was completed in mid-July, 2023.
 
 A change was made to the spec on Oct 4 (v1.1.0) to reflect the current implementation of the search results to have a tabular rather than vertical layout - though this change is primarily for (assumed) ease of implementation rather than for functionality or esthetics. See discussion near the results section. Also, a minor change in a search text-entry field: from "Study ID" to Publication ID".
 
-A change was made to the spec on Nov 17 (v1.2.0), noting that the component will have the ability to have its genus and species selectors pre-set to specific values; and for the species to be pre-set in the gene search component.
+A change was made to the spec on Nov 17 (v1.2.0), noting that the component will have the ability to have its genus and species selectors pre-set to specific values.
 </details>
 
 ## Input
@@ -52,11 +52,11 @@ See further discussion below, under Output.
 ## Output
 
 Note continuing discussion of report layout: For the data in this search and report, the vertical layout is probably preferable esthetically, 
-and wrapping of long text items will be needed. However, the choice of the layout is left to the implementer, at least in this version of the spec (1.1.x).
+and wrapping of long text items will be needed. However, the choice of the layout is left to the implementer, at least for now.
 I assume that tabular layout will be more straightforward at this point, and that is acceptable in order to get
 an initial implementation in place.
 
-Assuming tabular layout for this implementation (1.1.x), the following content will be in in each collection-anchored row:
+Assuming a tabular layout, the following content will be in in each collection-anchored row:
 
 - Study datastore collection name (linked to Linkout Service) e.g. `Nannong94-156_x_Bogao.qtl.Zhang_Cheng_2010`
 - Study type -- either GWAS or QTL
