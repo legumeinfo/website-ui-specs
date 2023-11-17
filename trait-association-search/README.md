@@ -3,19 +3,21 @@
 This is the requirements doc for the LIS, SoyBase, and PeanutBase trait association search, to be implemented on the respective Jekyll web sites. This search component should enable search of both QTL and GWAS studies. The primary (though not exclusive) link targets are the QTL and GWAS reports at the LIS InterMine instances -- for example, [GWAS "days to flower"](https://mines.legumeinfo.org/glycinemine/report.do?id=145000005) or [QTL "first flower"](https://mines.legumeinfo.org/glycinemine/report.do?id=235000009).
 
 ## Specification version
-Version: 1.1.0
+Version: 1.2.0
 
 <details>
 
 This specification was completed in mid-July, 2023, and is ready for initial implementation (v1.0).
 
 A change was made to the spec on Oct 4 (v1.1.0) to reflect the current implementation of the search results to have a tabular rather than vertical layout - though this change is primarily for (assumed) ease of implementation rather than for functionality or esthetics. See discussion near the results section. Also, a minor change in a search text-entry field: from "Study ID" to Publication ID".
+
+A change was made to the spec on Nov 17 (v1.2.0), noting that the component will have the ability to have its genus and species selectors pre-set to specific values; and for the species to be pre-set in the gene search component.
 </details>
 
 ## Input
 
-- Genus (selector with "any" on top)
-- Species (selector populated if genus specified, otherwise only "any")
+- Genus (selector with "any" on top, unless pre-set to some value, e.g. Glycine)
+- Species (selector populated if genus specified, otherwise only "any" - unless pre-set to some value, e.g. max)
 - Study Type (selector with "any" on top; values GWAS or QTL)
 - Traits (text input)
 - Publication ID (DOI or PMID) (text input)
@@ -30,15 +32,15 @@ See further discussion below, under Output.
 
 ### Mockup
 
-![image](Trait_search.png)
+![image](Trait_association_search.png)
 
 <hr><br>
 
-![image](Trait_search_and_results_vert.png)
+![image](Trait_association_search_and_results_vert.png)
 
 <hr><br>
 
-![image](Trait_search_and_results_table.png)
+![image](Trait_association_search_and_results_table.png)
 
 <hr><br>
 

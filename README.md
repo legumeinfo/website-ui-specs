@@ -1,7 +1,7 @@
 ## Table of contents
  - [Overview](#overview)<br>
  - [Gene search query](#gene-search)<br>
- - [Trait association search (for GWAS and QTLs)](#trait-search)<br>
+ - [Trait association search (for GWAS and QTLs)](#trait-association-search)<br>
  - [Gene function search](#gene-function-search)<br>
  - [Browser landing/index page](#browser-landing)<br>
  - [Pangenes search](#pangenes-search)<br>
@@ -20,8 +20,8 @@ Given user queries of a specified type, return results appropriate to the use ca
 ### Gene search <a name="gene-search"/>
 See the specification in the [gene-search](gene-search/) directory.
 
-### Trait search <a name="trait-search"/>
-See the specification in the [trait-search](trait-search/) directory.
+### Trait association search <a name="trait-association-search"/>
+See the specification in the [trait-association-search](trait-association-search/) directory.
 
 ### Gene function search <a name="gene-function-search"/>
 See the specification in the [gene-function-search](gene-function-search/) directory.
