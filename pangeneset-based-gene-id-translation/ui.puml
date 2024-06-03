@@ -1,0 +1,42 @@
+@startsalt
+{
+{
+|^Target genus^^Glycine^|
+|^Target species^^max^|
+|^Target strain^^Wm82^|
+|^Target assembly version^^gnm4^|
+|^Target annotation version^^ann1^|
+}
+.
+.
+.
+{
+Whitespace delimited user gene list goes here:|complete (non-paginated) results table goes here:
+{SI
+glyma.Zh13.gnm2.ann1.SoyZH13_05G079600
+glyma.Zh13.gnm2.ann1.SoyZH13_06G241600
+glyma.Zh13.gnm2.ann1.SoyZH13_09G198700
+glyma.Zh13.gnm2.ann1.SoyZH13_15G132700
+glyma.Zh13.gnm2.ann1.SoyZH13_17G096803
+glyma.Zh13.gnm2.ann1.SoyZH13_19G173200
+glyma.Zh13.gnm2.ann1.SoyZH13_08G263200
+glyma.Zh13.gnm2.ann1.SoyZH13_05G070900
+glyma.Zh13.gnm2.ann1.SoyZH13_03G042300
+glyma.Zh13.gnm2.ann1.SoyZH13_13G183500
+  .
+  .
+  .
+ }| {SI{# Input Gene | PanGeneSet | Target Gene
+  glyma.Zh13.gnm2.ann1.SoyZH13_17G096803 | Glycine.pan4.pan28078 | glyma.Wm82.gnm4.ann1.Glyma.17G100700
+glyma.Zh13.gnm2.ann1.SoyZH13_09G198700 | Glycine.pan4.pan10592 | glyma.Wm82.gnm4.ann1.Glyma.09G218500
+glyma.Zh13.gnm2.ann1.SoyZH13_13G183500 | Glycine.pan4.pan14924 | glyma.Wm82.gnm4.ann1.Glyma.13G205600
+glyma.Zh13.gnm2.ann1.SoyZH13_19G173200 | . | .
+glyma.Zh13.gnm2.ann1.SoyZH13_06G241600 | Glycine.pan4.pan00079 | glyma.Wm82.gnm4.ann1.Glyma.06G262300 
+glyma.Zh13.gnm2.ann1.SoyZH13_06G241600 | Glycine.pan4.pan00079 | glyma.Wm82.gnm4.ann1.Glyma.06G262100
+}}|
+}
+ configurable example list goes here
+ [Click to retrieve corresponding genes]
+}
+
+@endsalt
