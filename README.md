@@ -32,4 +32,6 @@ See the specification in the [browser-landing](browser-landing/) directory.
 ### Pangenes search <a name="pangenes-search"/>
 See the specification in the [pangenes-search](pangenes-search/) directory.
 
+### Allele search <a name="allele-search"/>
+See the specification in the [allele-search](allele-search/) directory.
 
