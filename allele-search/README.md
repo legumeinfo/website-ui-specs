@@ -4,11 +4,14 @@ This is the initial/draft requirements doc for the SoyBase allele search, to be 
 Note that the specification is for SoyBase first, partly because many VCF files are available for soybean. The specification and implementation may be generalized later for use with other species at LIS and PeanutBase.
 
 ## Specification version
-Version: 0.5.0
+Version: 0.6.0
 
 <details>
 
-The initial draft of this document, July 2024, is essentially for a prototype implementation, probably using a combination of the GCV microservices to return gene coordinates and the fasta-api services to return alleles from a range in a VCF. The first implementation will probably be done in in-page javascript rather than in a web component, since the GraphQL schema is not yet described for fasta-api.
+The initial draft of this document (0.5.0), 2024-07-18, is essentially for a prototype implementation, probably using a combination of the GCV microservices to return gene coordinates and the fasta-api services to return alleles from a range in a VCF. The first implementation will probably be done in in-page javascript rather than in a web component, since the GraphQL schema is not yet described for fasta-api.
+
+Some tweaks on 2024-07-25 (0.6.0), removing "Genes in this region" from the results.
+
 </details>
 
 ## Input
@@ -51,11 +54,30 @@ Examples are shown below each text input element. (Selectors are self-explanator
 
 <hr><br>
 
-## Output
-
-TBD
 
 ## Implementation notes
 
-TBD
+The variant data sets are identified from the datastore-metadata, in the subrepository of jekyll-soybase.
+
+At least initially, we plan to use the `genes` microservice to get the coordinates of a gene;
+and then fasta-api to get variant data in and around that region.
+
+This microservice can be called thus:
+```
+curl 'https://gcv.soybase.org/microservices/soybase/genes' --data-raw '{"genes":["glyma.Wm82.gnm4.ann1.Glyma.01G000322","glyma.Wm82.gnm4.ann1.Glyma.01G001000"]}'
+```
+
+Notes from Alan:
+
+> [https://github.com/legumeinfo/microservices/tree/main/genes](https://github.com/legumeinfo/microservices/tree/main/genes)
+
+> You send it a list of gene names that you want info for (full yuck) and it returns a list of gene objects in the same order as the given list of names.
+
+> The microservice supports both Protocal Buffers and HTTP requests. I recommend HTTP but the Protocol Buffers (i.e. .proto files) are useful for deciphering what the inputs/outputs of the service are. These files are located in the service's proto/ directory.
+
+> [https://github.com/legumeinfo/microservices/tree/main/genes/proto](https://github.com/legumeinfo/microservices/tree/main/genes/proto)
+
+Here is fasta-api:
+[https://github.com/soybase/fasta-api](https://app.soybase.org/api/fasta-api/docs)
+
 
