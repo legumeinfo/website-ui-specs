@@ -36,6 +36,7 @@ You may also browse and search accessions beginning with ...
 
 **Report:**
 
+```
 Pedigree:
   [Pedigree viewer]
     For an interactive plot of the pedigree, click the "Pedigree viewer" button, then choose "Import".
@@ -51,7 +52,7 @@ Hardin is in the pedigree of these lines: 05KL119276, 05KL135608, Asgrow A2242, 
 Alternate names for Hardin: PI 548526, A76-102009
 
 Comments for Hardin: PVP 8100052
-
+```
 
 
 ## Implementation notes
