@@ -10,12 +10,15 @@ This specification was completed in late December 2024. The specification preced
 </details>
 
 ## Input
+  -
   - Search all GRIN accessions
     -   Select at least one trait
     -   If the trait selected has a Min and Max value
   - Limited search to choosen GRIN accessions
     - 
-
+#### 
+- Height: numerical value
+- 
 
 ### Mockup
 
