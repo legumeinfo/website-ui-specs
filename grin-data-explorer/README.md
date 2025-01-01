@@ -1,156 +1,25 @@
 # GRIN trait data query and explorer - to search or explorer the GRIN trait data 
 
-This is the requirements doc for the SoyBase GRIN data explorer. This component should be enable ...  For the users to learn more info about the traits, [I do not want a mouse over, maybe a click to view or accordian] and a decription will pop up. 
+This is the requirements doc for the SoyBase GRIN data explorer. This component should be enable users to select one or more traits from a selected "traitClass" or "trait.Name". For the users to learn more info about the traits, the "traitDescription" from the traits.Genus.json file, should be available to view.
 
 ## Specification version
 Version: 0.1
 
 <details>
-This specification was completed in late December 2024. The specification preceded availability of the data downloaded from GRIN BrAPI in json format and stored [where?].
+This specification was completed in late December 2024 and was initally designed for a single species. 
+Currently all 
 </details>
 
 ## Input
   -
   - Search all GRIN accessions
-    -   Select at least one trait
-    -   If the trait selected has a Min and Max value
+    - Select at least one trait
+    - Select value of trait
+      - Use a range slider if the trait value is digital (numerical)
+      - Use a multi select dropdown if the trait value is a character (alphbetical)
   - Limited search to choosen GRIN accessions
     - 
-As of December 2024, there are 132 traits in the observations-Glycine.json file
-<details>
-    - ADVENROOTS
-APHID
-ARGININE
-BAW
-BOWMANBIRK
-BP
-BPMV
-BRANCHING
-BRNSTEMROT
-CHLOROSIS
-CHROMONUM
-CORE
-CYSTEINE
-DEFOL
-EARWORM
-FATTYACIDS
-FLOWERDATE
-FLUORESCE
-FLWRCOLOR
-FROGEYE
-FROGEYE11
-FROGEYE2
-FROGEYE3
-HEIGHT
-HIGHTEMP
-HILUMCOLOR
-IMAGE
-IODINENUM
-ISOLEUCINE
-LEAFLETTYP
-LEAFSHAPE
-LEAFSIZE
-LEUCINE
-LINOLEIC
-LINOLENIC
-LOCUS_E3
-LODGING
-LOOPER
-LOWERLFSHP
-LOWLEAFAR
-LOWLEAFASP
-LYSINE
-MATDATE
-MATGROUP
-METHIONINE
-MEXBEANBTL
-MOTTLING
-NEMATCYST_1
-NEMATCYST_14
-NEMATCYST_2
-NEMATCYST_3
-NEMATCYST_4
-NEMATCYST_5
-NSCANKER
-OIL
-OLEIC
-OTHERLEAF
-OTHERPLANT
-OTHERSEED
-P34
-PALMITIC
-PETUREIDE
-PHYTOROT_1
-PHYTOROT_10
-PHYTOROT_12
-PHYTOROT_17
-PHYTOROT_2
-PHYTOROT_20
-PHYTOROT_25
-PHYTOROT_3
-PHYTOROT_30
-PHYTOROT_30T
-PHYTOROT_31
-PHYTOROT_33
-PHYTOROT_38
-PHYTOROT_4
-PHYTOROT_5
-PHYTOROT_6
-PHYTOROT_7
-PHYTOROT_8
-PHYTOROT_9
-PMV
-PODCOLOR
-PODLENGTH
-POTATOLHOP
-PROTEIN
-PUBCOLOR
-PUBDENSITY
-PUBFORM
-PYTHIUMROT
-RENIFORM
-RUST_MIXED
-RUST_RED_BROWN
-RUST_TAN
-SALTREACT
-SCN_RACE3
-SCOATCOLOR
-SCOATLUST
-SDS
-SEEDQUAL
-SEEDSHAPE1
-SEEDSHAPE2
-SEEDWEIGHT
-SHATEARLY
-SHATLATE
-SMV
-SMV_G1
-SMV_G2
-SMV_G3
-SMV_G4
-SMV_G5
-SMV_G6
-SMV_G7
-SSCANKER
-SSR
-STACHYOSE
-STEARIC
-STEMTERM
-SUCROSE
-TERMSCORE
-THREONINE
-TRYPTOPHAN
-TWINING
-UPLEAFLEN
-UPLFSHAPE
-UPLFWIDTH
-UPPERLFLEN
-UPPERLFSHP
-UPPUBETYPE
-VALINE
-VBC
-YIELD
-</details>
+
 
 ### Mockup
 
