@@ -11,15 +11,14 @@ Currently all
 </details>
 
 ## Input
-  -
+  - Limited search to choosen GRIN accessions
+    - Text box for choosen GRIN accessions
+    - Same input as below
   - Search all GRIN accessions
     - Select at least one trait
     - Select value of trait
       - Use a range slider if the trait value is digital (numerical)
       - Use a multi select dropdown if the trait value is a character (alphbetical)
-  - Limited search to choosen GRIN accessions
-    - 
-
 
 ### Mockup
 
