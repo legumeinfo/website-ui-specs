@@ -20,13 +20,16 @@ Currently all
       - Use a range slider if the trait value is digital (numerical)
       - Use a multi select dropdown if the trait value is a character (alphabetical)
 
-### Mockup
+### Input Mockup Images
+![GRIN Explorer ALL accessions](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_all_accessions.png "Search all accessions")
 
-
+![GRIN Explorer SELECTED accessions](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_selected_acessions.png "Search selected accessions")
 
 ## Output
 
 
+
+### Output Mockup Images
 
 ## Implementation notes
 
