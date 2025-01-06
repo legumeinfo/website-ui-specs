@@ -26,10 +26,12 @@ Currently all
 ![GRIN Explorer SELECTED accessions](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_selected_acessions.png "Search selected accessions")
 
 ## Output
-
+The output will be in a tabular layout, with the following content in each GRIN accession anchored row:
+  - 
 
 
 ### Output Mockup Images
+![GRIN Explorer output](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_output.png "GRIN Data Explorer Results Table")
 
 ## Implementation notes
 
