@@ -26,8 +26,13 @@ Currently all
 ![GRIN Explorer SELECTED accessions](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_selected_acessions.png "Search selected accessions")
 
 ## Output
+
 The output will be in a tabular layout, with the following content in each GRIN accession anchored row:
-  - 
+  - GRIN accession (PI ##; example: PI 567571)
+  - traitName selected with values assiocated with the PI #
+  - traitName selected with values assiocated with the PI #
+  - traitName selected with values assiocated with the PI #
+    - ? Not sure if we should limit the number of columns ?
 
 
 ### Output Mockup Images
@@ -35,6 +40,24 @@ The output will be in a tabular layout, with the following content in each GRIN 
 
 ## Implementation notes
 
+  - The data behind this tool comes from two files: traits-'Genus'.json and observations-'Genus'.json
+    - (example: traits-Glycine.json and observations-Glycine.json).
+      
+  - The best way to link the two files is by using the "DbId" variable
+    - In the traits-'Genus'.json this variable is called "traitDbId" (Example: "traitDbId": "51009")
+    - In the observations-'Genus'.json this variable is called "observationVariableDbId" (Example: "observationVariableDbId": "51009")
+
+  - Within traits-'Genus'.json file the values need for this spec are:
+    - traitClass
+    - traitName
+    - traitDescription
+    - traitDbId
+
+  - Within observations-'Genus'.json file the values need for this spec are:
+    - observationVariableDbId
+    - germplasmName
+    - observationVariableName
+    - value
 
 
 
