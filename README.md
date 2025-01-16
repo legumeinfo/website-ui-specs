@@ -5,6 +5,7 @@
  - [Gene function search](#gene-function-search)<br>
  - [Browser landing/index page](#browser-landing)<br>
  - [Pangenes search](#pangenes-search)<br>
+ - [GRIN data explorer](#grin-data)<br>
 
 ### Overview  <a name="overview"/>
 
@@ -35,3 +36,5 @@ See the specification in the [pangenes-search](pangenes-search/) directory.
 ### Allele search <a name="allele-search"/>
 See the specification in the [allele-search](allele-search/) directory.
 
+### GRIN data explorer <a name="grin-data"/>
+See the specification in the [GRIN data explorer](grin-data-explorer/) directory.
