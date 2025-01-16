@@ -21,7 +21,7 @@ Currently all
       - Use a multi select dropdown if the trait value is a character (alphabetical)
 
 ### Input Mockup Images
-![GRIN Explorer ALL accessions](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_all_accessions.png "Search all accessions")
+![GRIN Explorer ALL accessions](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_Names.png "Search all accessions")
 
 ![GRIN Explorer SELECTED accessions](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_selected_acessions.png "Search selected accessions")
 
