@@ -21,9 +21,9 @@ This specification (Version 0.2) was completed in late January 2025 and was init
       - Use a multi select dropdown if the trait value is a character (alphabetical)
 
 ### Input Mockup Images
-![GRIN Explorer ALL accessions](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_Names.png "Search all accessions")
+![GRIN Explorer ALL accessions](/website-ui-specs/grin-data-explorer/GRIN_with_names.png)
 
-![GRIN Explorer SELECTED accessions](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_selected_acessions.png "Search selected accessions")
+![GRIN Explorer SELECTED accessions](/website-ui-specs/grin-data-explorer/GRIN_selected_accessions.png)
 
 ## Output
 
@@ -36,7 +36,7 @@ The output will be in a tabular layout, with the following content in each GRIN 
 
 
 ### Output Mockup Images
-![GRIN Explorer output](https://github.com/legumeinfo/website-ui-specs/blob/GRIN-data-explorer/grin-data-explorer/GRIN_Explorer_output.png "GRIN Data Explorer Results Table")
+![GRIN Explorer output](/website-ui-specs/grin-data-explorer/GRIN_Explorer_output.png)
 
 ## Implementation notes
 
