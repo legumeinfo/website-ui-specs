@@ -3,11 +3,11 @@
 This is the requirements doc for the SoyBase GRIN data explorer. This component should be enable users to select one or more traits from a selected "traitClass" or "traitName". For the users to learn more info about the traits, the "traitDescription" from the traits-Genus.json file, should be available to view.
 
 ## Specification version
-Version: 0.1
+Version: 0.2
 
 <details>
-This specification was completed in late December 2024 and was initally designed for a single species. 
-Currently all 
+This specification (Version 0.2) was completed in late January 2025 and was initally designed for a single species. 
+
 </details>
 
 ## Input
@@ -17,7 +17,7 @@ Currently all
   - Search all GRIN accessions
     - Select at least one trait
     - Select value of trait
-      - Use a range slider if the trait value is digital (numerical)
+      - Use two text boxes for the user entered Min and Max trait score the user wantx (numerical)
       - Use a multi select dropdown if the trait value is a character (alphabetical)
 
 ### Input Mockup Images
