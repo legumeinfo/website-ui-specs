@@ -19,7 +19,7 @@ The repository as of February 2025 is:
 ## Objective
 The purpose of the lis-phylotree component is for display of gene trees containing IDs from several species, with coloring by species and at least some interactivity.
 
-Relative to the R-shiny phylotree viewer that is in production (e.g. http://dev.lis.ncgr.org:50082/?family=Legume.fam3.07454),
+Relative to the R-shiny phylotree viewer that is in development (accessible-but-unlinked, e.g. http://dev.lis.ncgr.org:50082/?family=Legume.fam3.07454),
 
 ### Essential features:
 
@@ -49,6 +49,9 @@ Relative to the R-shiny phylotree viewer that is in production (e.g. http://dev.
 
 
 <hr><br>
+
+<img src="funnotate_legend.png" alt="funnotate_legend" width="1000" >
+
 
 <img src="funnotate_Legume.fam3.00838.png" alt="funnotate_Legume.fam3.00838" width="1000" >
 
