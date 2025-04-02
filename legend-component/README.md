@@ -1,4 +1,4 @@
-# Species legend (web component)
+# Legend (web component)
 
 This is the requirements doc for a legend web component, with labels and interactive dots/symbols.
 
