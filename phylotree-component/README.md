@@ -1,4 +1,4 @@
-# Phylotree viewer for gene families -- as a web component
+# Phylotree viewer for gene families (web component)
 
 This is the requirements doc for the phylotree web component
 
