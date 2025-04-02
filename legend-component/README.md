@@ -12,7 +12,7 @@ The initial spec (0.1.0) was drafted 2025-04-02.
 </details>
 
 ## Objective
-The purpose of this component is to provide a legend that associated named entities (e.g. species) with symbols (e.g. colored Xs or squares).
+The purpose of this component is to provide a legend that associated named entities (e.g. species) with symbols (e.g. colored dots or squares).
 It is presumed that this component will be paired with others on a webpage. Current applications would be the phylotree viewer and the Genome Context Viewer.
 
 
@@ -31,9 +31,9 @@ It is presumed that this component will be paired with others on a webpage. Curr
 
   |                      |                   |                      |                     |
   | ---------------------| ----------------- | -------------------- | ------------------- |
-  | [X] Genus species    | [X] Genus speci   | [X] Genus species    | [X] Genus speciess  |
-  | [X] Genus spec       | [X] Genus spe     | [X] Genus speciess   | [X] Genus spec      |
-  | [X] Genus speciesss  | [X] Genus sp
+  | [o] Genus species    | [o] Genus speci   | [o] Genus species    | [o] Genus speciess  |
+  | [o] Genus spec       | [o] Genus spe     | [o] Genus speciess   | [o] Genus spec      |
+  | [o] Genus speciesss  | [o] Genus sp
 
 
 <img src="legend_phylotree.png" alt="legend_phylotree.png" width="318px" >
@@ -44,30 +44,30 @@ It is presumed that this component will be paired with others on a webpage. Curr
 
   |                     |
   | :------------------ |
-  | [X] Genus species   |
-  | [X] Genus spec      |
-  | [X] Genus speciesss |
-  | [X] Genus speci     |
-  | [X] Genus spe       |
-  | [X] Genus sp        |
-  | [X] Genus species   |
-  | [X] Genus speciess  |
-  | [X] Genus spec      |
+  | [o] Genus species   |
+  | [o] Genus spec      |
+  | [o] Genus speciesss |
+  | [o] Genus speci     |
+  | [o] Genus spe       |
+  | [o] Genus sp        |
+  | [o] Genus species   |
+  | [o] Genus speciess  |
+  | [o] Genus spec      |
 
 
 ### Vertical layout, X-after:
 
   |                      |
   | -------------------: |
-  | Genus species    [X] |
-  | Genus spec       [X] |
-  | Genus speciesss  [X] |
-  | Genus speci      [X] |
-  | Genus spe        [X] |
-  | Genus sp         [X] |
-  | Genus species    [X] |
-  | Genus speciess   [X] |
-  | Genus spec       [X] |
+  | Genus species    [o] |
+  | Genus spec       [o] |
+  | Genus speciesss  [o] |
+  | Genus speci      [o] |
+  | Genus spe        [o] |
+  | Genus sp         [o] |
+  | Genus species    [o] |
+  | Genus speciess   [o] |
+  | Genus spec       [o] |
 
 
 <img src="legend_gcv.png" alt="legend_gcv.png" width="174px" >
