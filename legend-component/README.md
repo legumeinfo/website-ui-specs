@@ -41,7 +41,7 @@ Current applications would be the phylotree viewer and the Genome Context Viewer
 
 
 
-### Vertical layout, X-before:
+### Vertical layout, symbol before:
 
   |                     |
   | :------------------ |
@@ -56,7 +56,7 @@ Current applications would be the phylotree viewer and the Genome Context Viewer
   | [o] Genus spec      |
 
 
-### Vertical layout, X-after:
+### Vertical layout, symbol after:
 
   |                        |
   | ---------------------: |
