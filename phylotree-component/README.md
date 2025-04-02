@@ -39,7 +39,7 @@ The phylotree web components repository as of February 2025 is:
 [lis-phylotree](https://github.com/legumeinfo/web-components/tree/component/lis-phylotree)
 
 
-<img src="phylotree_component.png" alt="phylotree_component.png" width="1100" >
+<img src="phylotree_component.png" alt="phylotree_component.png" width="1055px" >
 
 
 

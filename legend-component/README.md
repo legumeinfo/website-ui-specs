@@ -29,8 +29,8 @@ It is presumed that this component will be paired with others on a webpage. Curr
 
 ### Tabular layout, horizontally-arrayed
 
-  |                        |                     |                        |                       |
-  | -----------------------| --------------------| ---------------------- | --------------------- |
+  |                      |                   |                      |                     |
+  | ---------------------| ----------------- | -------------------- | ------------------- |
   | [X] Genus species    | [X] Genus speci   | [X] Genus species    | [X] Genus speciess  |
   | [X] Genus spec       | [X] Genus spe     | [X] Genus speciess   | [X] Genus spec      |
   | [X] Genus speciesss  | [X] Genus sp
@@ -42,8 +42,8 @@ It is presumed that this component will be paired with others on a webpage. Curr
 
 ### Vertical layout, X-before
 
-  |                       |
-  | --------------------- |
+  |                     |
+  | :------------------ |
   | [X] Genus species   |
   | [X] Genus spec      |
   | [X] Genus speciesss |
@@ -57,17 +57,17 @@ It is presumed that this component will be paired with others on a webpage. Curr
 
 ### Vertical layout, X-after
 
-  |                       |
-  | --------------------- |
-  | Genus species   [X] |
-  | Genus spec      [X] |
-  | Genus speciesss [X] |
-  | Genus speci     [X] |
-  | Genus spe       [X] |
-  | Genus sp        [X] |
-  | Genus species   [X] |
-  | Genus speciess  [X] |
-  | Genus spec      [X] |
+  |                 |     |
+  | :-------------- | --- |
+  | Genus species   | [X] |
+  | Genus spec      | [X] |
+  | Genus speciesss | [X] |
+  | Genus speci     | [X] |
+  | Genus spe       | [X] |
+  | Genus sp        | [X] |
+  | Genus species   | [X] |
+  | Genus speciess  | [X] |
+  | Genus spec      | [X] |
 
 
 <img src="legend_gcv.png" alt="legend_gcv.png" width="174px" >
