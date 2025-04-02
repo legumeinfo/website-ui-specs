@@ -27,7 +27,7 @@ It is presumed that this component will be paired with others on a webpage. Curr
 
 ## Desired layout options:
 
-### Tabular layout, horizontally-arrayed
+### Tabular layout, horizontally-arrayed:
 
   |                      |                   |                      |                     |
   | ---------------------| ----------------- | -------------------- | ------------------- |
@@ -40,7 +40,7 @@ It is presumed that this component will be paired with others on a webpage. Curr
 
 
 
-### Vertical layout, X-before
+### Vertical layout, X-before:
 
   |                     |
   | :------------------ |
@@ -55,19 +55,19 @@ It is presumed that this component will be paired with others on a webpage. Curr
   | [X] Genus spec      |
 
 
-### Vertical layout, X-after
+### Vertical layout, X-after:
 
-  |                 |     |
-  | :-------------- | --- |
-  | Genus species   | [X] |
-  | Genus spec      | [X] |
-  | Genus speciesss | [X] |
-  | Genus speci     | [X] |
-  | Genus spe       | [X] |
-  | Genus sp        | [X] |
-  | Genus species   | [X] |
-  | Genus speciess  | [X] |
-  | Genus spec      | [X] |
+  |                      |
+  | -------------------: |
+  | Genus species    [X] |
+  | Genus spec       [X] |
+  | Genus speciesss  [X] |
+  | Genus speci      [X] |
+  | Genus spe        [X] |
+  | Genus sp         [X] |
+  | Genus species    [X] |
+  | Genus speciess   [X] |
+  | Genus spec       [X] |
 
 
 <img src="legend_gcv.png" alt="legend_gcv.png" width="174px" >
