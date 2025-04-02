@@ -1,6 +1,6 @@
-# Phylotree viewer for gene families (web component)
+# Species legend (web component)
 
-This is the requirements doc for the species legend web component
+This is the requirements doc for the species legend web component, with labels and interactive dots/symbols.
 
 ## Specification version
 Version: 0.1.0
