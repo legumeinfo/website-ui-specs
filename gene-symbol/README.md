@@ -1,7 +1,7 @@
 # Gene Symbols page
 
 This is the initial/draft requirements doc for the SoyBase parentage and pedigree report page. Implementation will probably be as a Jekyll page, calling a back-end service similar to
-https://www.soybase.org/tools/analysis/go.html
+https://www.soybase.org/tools/parentage/
 
 Page address (to replace current content at that location): tools/parentage/index.html
 
@@ -45,4 +45,4 @@ The data will be in a three-column flatfile, probably stored in Jekyll _data/gen
 The table will have approximately 4,000 rows; so some custom javascript would be best for 
 rendering the table with pagination and allowing for searching.
 
-The gene model IDs (e.g. Glyma.13g323000) should link to a modal linkout for that identifier.
+The gene model IDs (e.g. Glyma.13g323000) should link to a modal linkout for that identifier, similar to the linkouts from https://www.soybase.org/tools/search/gene.html.
