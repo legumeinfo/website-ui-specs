@@ -26,7 +26,7 @@ All 0-9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 Search: [   ]
 
-| Symbol  |  Symbol full name  |  Gene model |
+| Symbol  |  Symbol full name  |  Gene model IDs |
 |--|--|--|
 | 2A6 |	| <a href="/">Glyma02g09290</a> |
 | 4CL  |  4-coumarate--CoA ligase-like 7-like  |  <a href="/">Glyma.13g323000</a> |
@@ -41,6 +41,8 @@ Search: [   ]
 
 ## Implementation
 
-The data will be in a three-column flatfile, probably stored in Jekyll _data/gene_symbols.tsv .
+The data will be in a three-column flatfile, probably stored in Jekyll _data/gene_symbols.tsv (see file <a href="gene_symbols.tsv">here<\a>).
 The table will have approximately 4,000 rows; so some custom javascript would be best for 
 rendering the table with pagination and allowing for searching.
+
+The gene model IDs (e.g. Glyma.13g323000) should link to a modal linkout for that identifier.
