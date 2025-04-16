@@ -41,8 +41,12 @@ Search: [   ]
 
 ## Implementation
 
-The data will be in a three-column flatfile, probably stored in Jekyll _data/gene_symbols.tsv (see file [here](gene_symbols.tsv)).
+The data will be in a four-column flatfile, probably stored in Jekyll _data/gene_symbols.tsv (see file [here](gene_symbols.tsv)).
+Of those columns, the first three will be displayed. The fourth is the full, prefixed form of the gene identifier that 
+should be used for accessing the modal report via GraphQL.
+
 The table will have approximately 4,000 rows; so some custom javascript would be best for 
 rendering the table with pagination and allowing for searching.
 
 The gene model IDs (e.g. Glyma.13g323000) should link to a modal linkout for that identifier, similar to the linkouts from [a gene search page](https://www.soybase.org/tools/search/gene.html?genus=Glycine&species=&strain=&identifier=Glyma.13g323000&description=&family=&page=1).
+
