@@ -41,7 +41,7 @@ Search: [   ]
 
 ## Implementation
 
-The data will be in a three-column flatfile, probably stored in Jekyll _data/gene_symbols.tsv (see file <a href="gene_symbols.tsv">here<\a>).
+The data will be in a three-column flatfile, probably stored in Jekyll _data/gene_symbols.tsv (see file [here](gene_symbols.tsv)).
 The table will have approximately 4,000 rows; so some custom javascript would be best for 
 rendering the table with pagination and allowing for searching.
 
