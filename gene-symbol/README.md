@@ -7,14 +7,11 @@ Page address (to replace current content at that location): tools/parentage/inde
 
 
 ## Specification version
-Version: 0.6.0
+Version: 0.5.0
 
 <details>
 
-v0.5.0 First draft, 2024-11-07. Initial UI spec and back-end service implementation. The API has two endpoints: one generating a zip file to be passed to the Helium web application, and the other being plain-text to be used for the report on the website.
-
-v0.6.0 Second draft, 2024-11-25. Update back-end code and API. In this version, the text report is in JSON format. 
-
+v0.5.0 First draft, 2025-04-16. Initial UI spec
 </details>
 
 ## Input
@@ -31,13 +28,13 @@ Search: [   ]
 
 | Symbol  |  Symbol full name  |  Gene model |
 |--|--|--|
-| 2A6 |	| Glyma02g09290 |
-| 4CL  |  4-coumarate--CoA ligase-like 7-like  |  Glyma.13g323000 |
-| 4CL1  |  4-coumarate:coenzyme A ligase gene 1  |  Glyma.17g064600 |
-| 4CL2  |  4-coumarate:coenzyme A ligase gene 2  |  Glyma.13g372000 |
-| 4CL3  |  4-coumarate:coenzyme A ligase gene 3  |  Glyma.11g010500 |
-| 4CL4  |  4-coumarate:coenzyme A ligase gene 4  |  Glyma.01g232400 |
-| A1  |  albumin 1  |  Glyma.13g194400 |
-| AAH  |  allantoate amidohydrolase  |  Glyma.15g156900 |
-| AAH2  |  allantoate deiminase 2 |Glyma.09g050800 |
+| 2A6 |	| <a href="/">Glyma02g09290</a> |
+| 4CL  |  4-coumarate--CoA ligase-like 7-like  |  <a href="/">Glyma.13g323000</a> |
+| 4CL1  |  4-coumarate:coenzyme A ligase gene 1  |  <a href="/">Glyma.17g064600</a> |
+| 4CL2  |  4-coumarate:coenzyme A ligase gene 2  |  <a href="/">Glyma.13g372000</a> |
+| 4CL3  |  4-coumarate:coenzyme A ligase gene 3  |  <a href="/">Glyma.11g010500</a> |
+| 4CL4  |  4-coumarate:coenzyme A ligase gene 4  |  <a href="/">Glyma.01g232400</a> |
+| A1  |  albumin 1  |  <a href="/">Glyma.13g194400</a> |
+| AAH  |  allantoate amidohydrolase  |  <a href="/">Glyma.15g156900</a> |
+| AAH2  |  allantoate deiminase 2 |<a href="/">Glyma.09g050800</a> |
 
