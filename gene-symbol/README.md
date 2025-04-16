@@ -38,3 +38,9 @@ Search: [   ]
 | AAH  |  allantoate amidohydrolase  |  <a href="/">Glyma.15g156900</a> |
 | AAH2  |  allantoate deiminase 2 |<a href="/">Glyma.09g050800</a> |
 
+
+## Implementation
+
+The data will be in a three-column flatfile, probably stored in Jekyll _data/gene_symbols.tsv .
+The table will have approximately 4,000 rows; so some custom javascript would be best for 
+rendering the table with pagination and allowing for searching.
