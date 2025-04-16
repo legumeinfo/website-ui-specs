@@ -45,4 +45,4 @@ The data will be in a three-column flatfile, probably stored in Jekyll _data/gen
 The table will have approximately 4,000 rows; so some custom javascript would be best for 
 rendering the table with pagination and allowing for searching.
 
-The gene model IDs (e.g. Glyma.13g323000) should link to a modal linkout for that identifier, similar to the linkouts from https://www.soybase.org/tools/search/gene.html.
+The gene model IDs (e.g. Glyma.13g323000) should link to a modal linkout for that identifier, similar to the linkouts from [a gene search page](https://www.soybase.org/tools/search/gene.html?genus=Glycine&species=&strain=&identifier=Glyma.13g323000&description=&family=&page=1).
