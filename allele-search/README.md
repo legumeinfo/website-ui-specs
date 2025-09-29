@@ -49,15 +49,23 @@ or
 
 Examples are shown below each text input element. (Selectors are self-explanatory.)
 
-### Version 0.7.0 Mockup
+## Version 0.7.0 Mockup
+
+### Input
 
 ![image](Version_0.7.0_Allele_Search.png)
 
-### Version 0.6.0 Mockup
+### Output
+
+<hr><br>
+
+## Version 0.6.0 Mockup
+
+### Input
 
 ![image](Allele_search.png)
 
-<hr><br>
+### Output
 
 ![image](Allele_search_results.png)
 
