@@ -4,13 +4,15 @@ This is the initial/draft requirements doc for the SoyBase allele search, to be 
 Note that the specification is for SoyBase first, partly because many VCF files are available for soybean. The specification and implementation may be generalized later for use with other species at LIS and PeanutBase.
 
 ## Specification version
-Version: 0.6.0
+Version: 0.7.0
 
 <details>
 
 The initial draft of this document (0.5.0), 2024-07-18, is essentially for a prototype implementation, probably using a combination of the GCV microservices to return gene coordinates and the fasta-api services to return alleles from a range in a VCF. The first implementation will probably be done in in-page javascript rather than in a web component, since the GraphQL schema is not yet described for fasta-api.
 
 Some tweaks on 2024-07-25 (0.6.0), removing "Genes in this region" from the results.
+
+Version 0.6.0 - Input did NOT included strain collection. Output did not contain strain ID and strain alleles. 
 
 </details>
 
@@ -33,6 +35,10 @@ A variant collection, as a VCF file
 # Variant collections for assembly Wm82.a4 / Wm82.gnm4.ann1.T8TQ
   glyma.Wm82.gnm4.div.Song_Hyten_2015.vcf.gz ;                     Wm82.gnm4.div.Song_Hyten_2015            ; Wm82.gnm4.ann1.T8TQ
 ```
+- Radio buttons:
+  - Ref / Alt allele only == Version 0.6.0 
+  - Specific strain within study == Version 0.7.0
+      - A multi-select list of strains
 
 ... and either 
 - Gene ID, with prefix, e.g. "glyma.Wm82.gnm4.ann1.Glyma.16G044100" and size of left and right flanking regions (e.g. 50000)
@@ -43,7 +49,11 @@ or
 
 Examples are shown below each text input element. (Selectors are self-explanatory.)
 
-### Mockup
+### Version 0.7.0 Mockup
+
+
+
+### Version 0.6.0 Mockup
 
 ![image](Allele_search.png)
 
