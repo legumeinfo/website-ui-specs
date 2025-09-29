@@ -16,10 +16,10 @@ Revision 2025-09-29, after initial implementation of web component and Mine repo
 [https://mines.dev.lis.ncgr.org/minimine-genefunction-comments/genefunction:LjNIN](https://mines.dev.lis.ncgr.org/minimine-genefunction-comments/genefunction:LjNIN)
 
 - Classical Locus: Let's not display this in the Web Component report, since it is usually null (though it would be good to include in the Mine symbol report page).
-- Gene Symbols: Preferably, all symbols would be displayed for a given record. For example, for the record for publication 10.1104/pp.15.00164, the symbols would be "EIN2, Skl1". If there are technical reasons to restrict to a single symbol (for example, if one symbol is used for linkouts to a Mine report page), then the heading should be singular: Primary gene symbol.
+- Gene Symbols: Preferably, all symbols would be displayed for a given record. For example, for the record for publication 10.1104/pp.15.00164, the symbols would be "EIN2, Skl1". When multiple are present, use the first one to link to the InterMine report page for that symbol.
 - Gene model pub name: We should display this. For publication 10.1104/pp.15.00164, it would be Medtr7g101410.
 - Citations: Currently, DOIs for all citations are displayed. I think that is fine; but in that case, the category heading should be "Citations" rather than "One ctation"
-- Linkouts: probably one from Gene symbol (linking to the Mine symbol report page) and one from Gene model full name (linking to all places a gene model ID can go).
+- Linkouts: probably one from Gene symbol (linking to the Mine symbol report page) and one from Gene model full name (linking to all places a gene model ID can go). For citation, link directly to the InterMine publication record, via the DOI (but display the Author Author Year).
 
 </details>
 
@@ -54,12 +54,12 @@ Examples are shown below each text input element. (Selectors are self-explanator
 The output will be in a tabular layout, with the following content in each gene-name-anchored row:
 
 - Gene model publication name: Glyma.16g150700
-- Classical locus: E9  [Omit if not present in the data]
 - Gene symbols: GmFT2a, FT  [Flatten if a list is present. Omit if not present in the data]
 - Gene symbol description: Flowering Time 2a  [Omit if not present in the data]
-- Gene model full name: glyma.Wm82.gnm4.ann1.Glyma.16G150700  [Links to linkout box; same link as for Synopsis]
+- Gene model full name: glyma.Wm82.gnm4.ann1.Glyma.16G150700  [Links to linkout box for gene model IDs]
 - Synopsis: Photoperiodic flowering time regulation  [Links to linkout box; same link as for Gene model full name]
 - Traits: flowering time, days to maturity  [Flatten if a list is present]
+- Citations: list of "Author, Author, Year" with linkouts via the DOI
 
 ## Implementation notes
 
@@ -68,6 +68,6 @@ The output will be in a tabular layout, with the following content in each gene-
 
 ## Changes during implementation in fall 2025
 - Because "Classical locus" is present in so few of the data records, let's omit this in the web copmponent report. Do include it on the Mine report page however.
-- Citation: list of DOIs, rather than presenting the (full) first citation.
+- Citation: list of "Author, Author, Year" with linkouts via the DOI
 
 
