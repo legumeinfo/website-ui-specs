@@ -89,7 +89,7 @@ This microservice can be called thus:
 curl 'https://gcv.soybase.org/microservices/soybase/genes' --data-raw '{"genes":["glyma.Wm82.gnm4.ann1.Glyma.01G000322","glyma.Wm82.gnm4.ann1.Glyma.01G001000"]}'
 ```
 
-Notes from Alan:
+### Notes from Alan:
 
 > [https://github.com/legumeinfo/microservices/tree/main/genes](https://github.com/legumeinfo/microservices/tree/main/genes)
 
@@ -102,7 +102,8 @@ Notes from Alan:
 Here is fasta-api:
 [https://github.com/soybase/fasta-api](https://app.soybase.org/api/fasta-api/docs)
 
-Note from Steven, with commandline prototype implementations that illustrate input data and options and output.
+### Note from Steven ...
+... with commandline prototype implementations that illustrate input data and options and output.
 
 These scripts require the pysam library, which can be installed with e.g.
 `pip install pysam`
@@ -117,9 +118,8 @@ They are called thus (assuming, in these examples, a bgzipped and tabix-indexed 
   #Note: Provide chromosome, start, and end as the last 3 arguments
 
   ./get_alleles_simple_S4_v03.py data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
-  ./get_alleles_simple_S4_v03.py --encoding vcf data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
   ./get_alleles_simple_S4_v03.py --encoding hap data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
-  ./get_alleles_simple_S4_v03.py --encoding both data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
+  ./get_alleles_simple_S4_v03.py --encoding vcf data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
 ```
 
 ```
@@ -128,9 +128,29 @@ They are called thus (assuming, in these examples, a bgzipped and tabix-indexed 
   #                             vcf_file sample_names [sample_names ...] chromosome start end
 
   ./get_alleles_S4_v03.py data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
-  ./get_alleles_S4_v03.py --encoding vcf data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
   ./get_alleles_S4_v03.py --encoding hap data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
-  ./get_alleles_S4_v03.py --encoding both data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
+  ./get_alleles_S4_v03.py --encoding vcf data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
+```
+
+For both of the scripts above, the formats look like the following:
+```
+  Encoding: hap
+  --------------------------------------------------------------------------------
+  Position	Ref	Alt	HN001	HN002	USB-002
+  324571	T	C	TT	CC	CC
+  377917	A	G	GG	GG	GG
+  437287	T	G	GG	GG	GG
+  474188	C	T	CC	TT	TT
+```
+
+```
+  Encoding: vcf
+  --------------------------------------------------------------------------------
+  Position	Ref	Alt	HN001	HN002	USB-002
+  324571	T	C	0/0	1/1	1/1
+  377917	A	G	1/1	1/1	1/1
+  437287	T	G	1/1	1/1	1/1
+  474188	C	T	0/0	1/1	1/1
 ```
 
 
