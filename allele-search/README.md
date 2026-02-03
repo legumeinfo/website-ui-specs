@@ -107,7 +107,7 @@ Here is fasta-api:
 
 These scripts require the pysam library, which can be installed with e.g.
 `pip install pysam`
-or in a conda environment.
+or with a conda environment.
 
 There are two versions of the script -- the [first one](prototypes/get_alleles_simple_S4_v03.py) being simpler and the [second one](prototypes/get_alleles_S4_v03.py) being more full-featured.
 
@@ -132,7 +132,7 @@ They are called thus (assuming, in these examples, a bgzipped and tabix-indexed 
   ./get_alleles_S4_v03.py --encoding vcf data/USB481-25Kshared50Kpos.vcf.gz HN001 HN002 USB-002 Chr13 100000 500000
 ```
 
-For both of the scripts above, the formats look like the following:
+For both of the scripts above, the output formats look like the following, depending on the value of the `encoding` flag:
 ```
   Encoding: hap
   --------------------------------------------------------------------------------
