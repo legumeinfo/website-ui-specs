@@ -109,7 +109,7 @@ These scripts require the pysam library, which can be installed with e.g.
 `pip install pysam`
 or in a conda environment.
 
-There are two versions of the script -- the first one being simpler and the second one being more full-featured.
+There are two versions of the script -- the [first one](prototypes/get_alleles_S4_v03.py) being simpler and the [second one](prototypes/get_alleles_simple_S4_v03.py) being more full-featured.
 
 They are called thus (assuming, in these examples, a bgzipped and tabix-indexed VCF at the indicated location):
 ```
