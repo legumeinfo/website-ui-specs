@@ -53,10 +53,10 @@ This specification (Version 0.1) was taken from legacy SoyBase and was initially
 | 2025 | UTII | Ames, IA  |  MN1905CN  |   3   | YieldBuA  |  73.3 |
  
 **Locations Table**
-| YEAR | TEST | LOCATION  | LAT    | REP # | PHENOTYPE | VALUE |
-| ---- | ---- | --------  | ------ | ------| --------- | ----- |
-| 2025 | UTII | Ames, IA  | 42.0473 |   1   | YieldBuA  |  53.7 |
-| 2025 | UTII | Ames, IA  |      |   2   | YieldBuA  |  69.9 |
+| YEAR| TEST | LOCATION| LAT |  LONG| CONDUCTOR | PLANTING DATE | ROW SPACING | MATURITY DATE |
+| ----| ---- | ------- | --- | -----| --------- | ------------- | ----------- | ------------- |   
+| 2025| UTII | Ames,IA | 42.0| -93.7|   Singh   |      132      |     30      |      149      |
+| 2025| UTII | Ames,IA | 40.9| -93.4|   Singh   |      126      |     30      |      164      |
 
   - Columns included are: YEAR, TEST, LOCATION, LAT, LONG, CONDUCTOR, PLANTING DATE, ROW SPACING, MATURITY DATE, DAYS TO MATURITY, DAYS TO MATURITY
 5. Strains Table
