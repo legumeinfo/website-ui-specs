@@ -3,10 +3,11 @@
 This is the requirements doc for the SoyBase **NUST** (Northern Uniform Soybean Trials). 
 
 ## Specification version
-Version: 0.1 
+Version: 0.3
 
 <details>
 This specification (Version 0.1) was taken from legacy SoyBase and was initially designed for only NUST data. 
+Version 0.2 was the first iteration of the query portal designed and created by Simon Novak
 
 </details>
 
@@ -27,50 +28,36 @@ This specification (Version 0.1) was taken from legacy SoyBase and was initially
 <img width="885" height="317" alt="NUST-CTT" src="https://github.com/user-attachments/assets/7a095121-f68f-4a0b-a57e-f28e12a613b2" />
 
 ## Output
-#### General Phenotype Search Table
 
-5 separate tables are presented in the output
-**Check Stains Table**
-| YEAR | TEST | STRAIN    | PHENOTYPE   |
-| ---- | ---- | --------  | ----------- |
-| 2025 | UTII |  IA2102   |    MG II    |
-| 2025 | UTII | MN1905CN  | Early-MG II |
+Output page has a 'modify search' button to return to input tool 
+Outputs should be shown in table format. Each table should have the following items:
+ - Download or Export Data as CSV or TXT
+ - Search box
+ - Sortable columns
 
-**Phenotype Location Means Table**
-| YEAR | TEST | LOCATION  |   STRAIN   | PHENOTYPE |    VALUE    |
-| ---- | ---- | --------  | ---------- | --------- | ----------- |
-| 2025 | UTII | Ames, IA  |   IA2102   | YieldBuA  | 64.7Bu/Acre |
-| 2025 | UTII | Ames, IA  |  MN1905CN  | YieldBuA  | 63.8Bu/Acre |
-
-**Replicates Table**
-| YEAR | TEST | LOCATION  |   STRAIN   | REP # | PHENOTYPE | VALUE |
-| ---- | ---- | --------  | ---------- | ------| --------- | ----- |
-| 2025 | UTII | Ames, IA  |   IA2102   |   1   | YieldBuA  |  53.7 |
-| 2025 | UTII | Ames, IA  |   IA2102   |   2   | YieldBuA  |  69.9 |
-| 2025 | UTII | Ames, IA  |   IA2102   |   3   | YieldBuA  |  70.3 |
-| 2025 | UTII | Ames, IA  |  MN1905CN  |   1   | YieldBuA  |  55.4 |
-| 2025 | UTII | Ames, IA  |  MN1905CN  |   2   | YieldBuA  |  62.7 |
-| 2025 | UTII | Ames, IA  |  MN1905CN  |   3   | YieldBuA  |  73.3 |
- 
-**Locations Table**
-|YEAR| TEST | LOCATION| LAT|  LONG| CONDUCTOR | PLANTING DATE | ROW SPACING | MATURITY DATE | DAYS TO MATURITY |
-|----| ---- | ------- |--- | -----| --------- | ------------- | ----------- | ------------- | ---------------- |  
-|2025| UTII | Ames,IA |42.0| -93.7|   Singh   |      132      |     30      |      149      |       149        |
-|2025| UTII | Ames,IA |40.9| -93.4|   Singh   |      126      |     30      |      164      |       164        |
-
-**Strains Table**
-| YEAR | TEST |  STRAIN | DESCRIPTIVE CODE | UNIQUE TRAITS | GEN COMP  |
-| ---- | ---- | ------- | ---------------- | ------------- | --------- |
-| 2025 | UTII | Ames,IA |    WGTDYYI       |               |    F4     |
-| 2025 | UTII | Ames,IA |    PTBDYYI       |   Yld, SCN    |    F9     | 
 
 
 ### Output Mockup Images
 
+#### General Phenotype Output Table
 
-#### General Phenotype Search Table
+##### Check Strains table
+<img width="696" height="327" alt="NUST-GPST- Checks" src="https://github.com/user-attachments/assets/4f3d79df-d336-44d9-ae26-4cf5907215c5" />
 
-#### Strain Search Table
+##### Phenotype Location Means table
+<img width="676" height="300" alt="NUST-GPST-Phenotype" src="https://github.com/user-attachments/assets/06c8b1a6-2681-4024-98d8-20e9c20c6b86" />
+
+##### Replicates
+<img width="676" height="300" alt="NUST-GPST-Reps" src="https://github.com/user-attachments/assets/86962589-b023-4ea1-94d3-c9c708fc3696" />
+
+##### Locations
+<img width="844" height="172" alt="NUST-GPST-Locations" src="https://github.com/user-attachments/assets/c3e10a58-095b-4b5a-a4d7-31cf9fe029fa" />
+
+##### Strains
+<img width="736" height="150" alt="NUST-GPST-Strains" src="https://github.com/user-attachments/assets/4b08f12f-edf8-4523-b863-8a7151503ccc" />
+
+
+#### Strain Output table Table
 
 #### Specific Strain Phenotype Search Table
 
