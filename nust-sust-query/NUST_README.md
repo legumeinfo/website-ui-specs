@@ -70,6 +70,8 @@ Outputs should be shown in table format. Each table should have the following it
 #### Specific Strain Phenotype Search Table
 
 #### Common Test Table
+<img width="492" height="300" alt="NUST-Coo" src="https://github.com/user-attachments/assets/4a9adc25-70d1-4c7c-af38-36e946cd3ff0" />
+
 
 
 
