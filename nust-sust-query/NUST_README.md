@@ -2,6 +2,12 @@
 
 This is the requirements doc for the SoyBase **NUST** (Northern Uniform Soybean Trials). 
 
+## Table of Contents
+- [Input Data](#input-data)
+   - [Input Mockup Images](#input-mockup-images)
+- [Output](#output)
+   - [Output Mockup Images](#output-mockup-images)
+
 ## Specification version
 Version: 0.3
 
@@ -57,7 +63,9 @@ Outputs should be shown in table format. Each table should have the following it
 <img width="736" height="150" alt="NUST-GPST-Strains" src="https://github.com/user-attachments/assets/4b08f12f-edf8-4523-b863-8a7151503ccc" />
 
 
-#### Strain Output table Table
+#### Strain Output Table
+<img width="628" height="400" alt="NUST-SST" src="https://github.com/user-attachments/assets/7a89821f-d50c-4972-84fb-a22bdb738e98" />
+
 
 #### Specific Strain Phenotype Search Table
 
