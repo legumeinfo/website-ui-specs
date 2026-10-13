@@ -19,6 +19,10 @@ Version 0.2 was the first iteration of the query portal designed and created by 
 
 ## Input Data
 
+Initial data is collected the from the either the PDFs posted in the [Northern Uniform Soybean Trials](https://www.ars.usda.gov/midwest-area/west-lafayette-in/crop-production-and-pest-control-research/docs/uniform-soybean-tests-northern-region/) website or given to a SoyBase curator as an Excel sheet by a collaborator. 
+
+The data is 
+
 ### Input Mockup Images
 
 #### General Phenotype Search Tool
